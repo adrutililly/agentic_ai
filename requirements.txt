@@ -1,0 +1,20 @@
+fastapi
+uvicorn[standard]
+
+# LangChain modern stack (runnable with 3.12)
+langchain>=0.3.7
+langchain-community>=0.3.0
+langchain-openai>=0.1.25
+
+# HTTP + parsing
+requests
+beautifulsoup4
+httpx
+
+# Env + validation
+python-dotenv
+pydantic>=2.0
+
+# optional utilities
+tiktoken
+sqlparse
