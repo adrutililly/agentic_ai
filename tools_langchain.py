@@ -10,10 +10,6 @@ from typing import Callable
 
 log = logging.getLogger("tools_langchain")
 
-# ============================================================================
-# SIMPLE TOOL CLASS (No LangChain dependency)
-# ============================================================================
-
 class SimpleTool:
     """Simple tool wrapper that the LLM can use."""
     def __init__(self, name: str, description: str, func: Callable):
