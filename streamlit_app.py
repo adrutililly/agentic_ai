@@ -266,7 +266,7 @@ if len(st.session_state.history) > 1:
 st.divider()
 st.markdown("""
     <div style='text-align: center; color: #666; padding: 20px;'>
-        <p>🤖 Powered by LangChain & FastAPI | Built with ❤️ using Streamlit</p>
+        <p>🤖 Powered by LangChain & FastAPI</p>
         <p style='font-size: 12px;'>
             <b>Capabilities:</b> Wikipedia Search 📚 | Calculator 🔢 | Unit Converter 🔄
         </p>
